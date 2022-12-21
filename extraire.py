@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from sys import argv, exit
 from os import startfile
 
-alphabet = 'ABCDEFGHEJKLMNOPQRSTUVWXYZ'
+alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 links = list()
 
 if(argv[1][0] > argv[1][2]):
@@ -14,7 +14,7 @@ for i in alphabet[ord(argv[1][0].upper())-65 : ord(argv[1][2].upper())-64]:
 
 subst_counter = 0
 subst_total = 0
-file_one = open('fich1.txt', 'w', encoding="UTF-8")
+file_one = open('infos1.txt', 'w', encoding="UTF-8")
 substances = list()
 
 for link in links:
@@ -35,5 +35,3 @@ subdico.write(u'\ufeff')
 for substance in substances:
     subdico.write(f'{substance},.N+subst\n')
 subdico.close()
-startfile('subst.dic')
-startfile('fich1.txt')
