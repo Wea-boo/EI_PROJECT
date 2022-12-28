@@ -17,7 +17,7 @@ substance_pattern = '^[ 0-9\tØ-]*([A-Za-zéèê]{3,})( LP)?[ :]*?(\d+(\.\d+|,\d
 f = open(argv[1], 'r', encoding="UTF-8").read().replace(u'\u00A0',' ')
 subst = re.findall(substance_pattern, f, re.I | re.M)
 for sub in subst:
-    extra_file.write(f'{sub[0].lower()},N+subst\n')
+    extra_file.write(f'{sub[0].lower()},.N+subst\n')
 extra_file.close()
 corpus_set = {i[0].lower() for i in subst}
 
@@ -30,7 +30,7 @@ print(enrichissement)
 finaldict_subst_enrichir = open('subst.dic', 'w', encoding="UTF-16 LE")
 finaldict_subst_enrichir.write(u'\ufeff')
 for elt in final_result_enrichir:
-    finaldict_subst_enrichir.write(f'{elt},N+subst\n')
+    finaldict_subst_enrichir.write(f'{elt},.N+subst\n')
 finaldict_subst_enrichir.close()
 
 l = list(corpus_set)

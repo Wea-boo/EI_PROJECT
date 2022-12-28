@@ -1,0 +1,39 @@
+#Unigraph
+SIZE 1887 862
+FONT Times New Roman:  10
+OFONT Arial Unicode MS:B 12
+BCOLOR 16777215
+FCOLOR 0
+ACOLOR 13487565
+SCOLOR 16711680
+CCOLOR 255
+DBOXES y
+DFRAME n
+DDATE n
+DFILE n
+DDIR n
+DRIG n
+DRST n
+FITS 100
+PORIENT L
+#
+19
+"<E>" 70 200 2 2 15 
+"" 1683 258 0 
+"<N+subst>" 114 518 4 3 4 10 18 
+"<NB>+un+deux+trois+quatre+cinq+six+sept+huit+neuf+dix+½ +¼+<NB>\/<NB>" 420 571 6 9 10 3 4 11 16 
+"matin+soir+le matin+le soir+par jour+par semaine+toutes les <NB> heures+matin midi et soir+le midi+midi+au coucher+depuis+pendant+avant+aprés+<semaine>+j+<jour>+<heure>+h+à <NB> heure+<minute>+jr+à <NB> h" 1178 250 4 1 16 4 3 
+"un+deux+trois+quatre+cinq+six+sept+huit" 229 109 0 
+"avant+aprés+pendant" 810 757 0 
+"jr+<jour>+hr+<heure>" 76 101 0 
+"flac+<flacon>+<injection>+inj SC+inj" 160 159 0 
+"mg+g+ml+ui+l+cp+<unité>+gtte+<goutte>+<comprimé>+<sachet>+flac+<flacon>+<injection>+inj SC+inj+amp+<ampoule>+<gélule>+fois+%" 724 219 5 4 3 17 16 10 
+"\:+\,+\.+x" 315 763 3 3 4 16 
+"-+\/+\.+_+$" 422 280 1 12 
+"<NB>+<NB>\/<NB>" 423 187 2 13 3 
+"-+\/+\.+_+$" 421 111 1 14 
+"<NB>+<NB>\/<NB>" 490 36 2 1 9 
+"voie" 39 455 1 2 
+"\/+et+\,+\/<NB>" 1049 745 2 4 3 
+"\/" 859 120 1 9 
+"LP" 302 220 2 3 10 
